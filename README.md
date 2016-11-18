@@ -1,2 +1,3 @@
-# presentation
-template for presentations using reveal.js
+#### Reveal.js Presentation Template
+
+Based on: 
