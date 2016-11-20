@@ -4,7 +4,6 @@ Michael Anderson
 
 michael.anderson@elego.de
 
-# Linux
 
 Note: La, la la
 foo, bar
@@ -17,7 +16,5 @@ foo, bar
 # Unix Dateisystem
 
 
-Not
-# delivery
 
 
