@@ -4,6 +4,8 @@ Michael Anderson
 
 michael.anderson@elego.de
 
+www.elegosoft.com
+
 
 Note: La, la la
 foo, bar
