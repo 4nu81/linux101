@@ -1,4 +1,4 @@
-#### SSH Intro
+#### SSH 
 
 <img src="images/swiss.jpg" style="width:512px">
 
