@@ -15,6 +15,13 @@ Linux distributions build on the GNU/Linux core sytem to provide package managem
 
 #### Wieso, Warum...?
 
-* Stabil 
+* Supported Architectures 
+** Intel x86/x64, RISC, ARM, PowerPC, SPARC, Itanium64...
+* Centralized, standardized package management
 * Open Source
-* Features:  
+* Robust, mature, secure Server Platform
+* Excellent networking support
+* Open management APIs
+* ABI/API compatibility across versions
+* Builtin Hypervisor and virtual network, storage,
+* Dev Tools included
