@@ -1,10 +1,11 @@
-### Linux 101
+### Linux/LAMP Basics
+
+[www.elegosoft.com](http://www.elegosoft.com)
 
 Michael Anderson
 
 michael.anderson@elego.de
 
-[www.elegosoft.com](http://www.elegosoft.com)
+<img src="images/elego_logo.png" style="width:128px;">
 
-<img src="images/elego_logo.png" style="width:96px;">
-
+[..this presentation online](https://mkanderson.github.io/linux101)

@@ -4,6 +4,8 @@
 #### Navigating the Command Line (Readline)
 
 ```
+<TAB> - command completion (Bash)
+
 
 ```
 
@@ -19,6 +21,7 @@ ls -t # Order by modification time (newest first)
 ls -tr # Order by modification time (newest last)
 ```
 
+
 #### Who and where am I?
 
 ```bash
@@ -29,23 +32,38 @@ su # Switch user
 sudo # Execute a command as user
 ```
 
+
 #### Navigating the Filesystem
+
 ```bash
 cd # Change working directory
 pushd # save a directory
 popd  # move to a saved directory
 ## File path expansion ##
 ~ # Home Directory
+- # Previous pwd
 . # Present working directory
 .. # Parent directory
 ```
 
+[Linux Filesystem Hierarchy Standard](https://de.wikipedia.org/wiki/Filesystem_Hierarchy_Standard)
+
 
 #### Bash History
+
+```bash
+[arrow up]/[arrow down] # previous/next command
+history # Display previous command
+!<x> # repeat command x
+!! repeat last command
+<CTL>-r # Search history
+```
 
 
 #### Files and Text
 ```bash
+cp # copy files
+mv # move (rename) files
 cat # Display and concatenate file contents
 sort # sort
 less # Pager
@@ -55,13 +73,22 @@ emacs # Edit files
 grep # Regex filter
 sed  # Line-based text processor
 awk  # Process tabular data
+find # recursively search directories
 ```
-
 
 #### IO Redirection
 ```bash
-> # Redirect to file
+SDTIN = 0
+STDOUT = 1
+STDERR = 2
+> # Redirect to 
 < # Consume on stdin
 | # Pipe: connect stdout to stdin
+```
+
+#### Command Substitution
+```bash
+$(command)  # evaluate output of command
+$(<file) # same as cat file
 ```
 

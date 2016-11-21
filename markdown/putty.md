@@ -1,3 +1,8 @@
+#### SSH Intro
+
+<img src="images/swiss.jpg" style="width:512px">
+
+
 #### Login from Windows
 
 PuTTY: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
