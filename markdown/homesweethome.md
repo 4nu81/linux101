@@ -1,12 +1,25 @@
 #### Unix Command Format
 
+```bash
+<command> -f param --flag param   [operand1, operand2...]
+
+ls -l /usr/local
+cp /etc/passwd /tmp/
+mv /tmp/passwd /tmp/passwd.bak
+wc (input on STDIN, end with <CTRL-d>)
+```
+
 
 #### Navigating the Command Line (Readline)
 
 ```
 <TAB> - command completion (Bash)
-
-
+<CTRL-l> - clear screen
+<CTRL-f> - forward
+<CTRL-h> - backwards
+<CTRL-d> - delete
+<CTRL-a> - jump to line beginning
+<CTRL-e> - jump to line end
 ```
 
 
