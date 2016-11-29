@@ -1,11 +1,11 @@
 ### Linux/LAMP Basics
 
-[www.elegosoft.com](http://www.elegosoft.com)
+[www.rcs.de](http://www.rcs.de)
 
-Michael Anderson
+Andreas Maertens
 
-michael.anderson@elego.de
+am@rcs.de
 
-<img src="images/elego_logo.png" style="width:128px;">
+<img src="images/trollface.jpg" style="width:128px;">
 
-[..this presentation online](https://mkanderson.github.io/linux101)
+[..this presentation online](https://4nu81.github.io/linux101)
