@@ -5,12 +5,12 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-      
+
     <!-- reveal.js CSS theme and local overrides -->
     <link rel="stylesheet" href="reveal.js/css/reveal.css"/>
     <link rel="stylesheet" href="reveal.js/css/theme/default.css" id="theme"/>
     <link rel="stylesheet" href="css/reveal-override.css"/>
-	  
+
     <!-- For syntax highlighting -->
     <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css" />
 
@@ -26,68 +26,68 @@
     <div class="reveal">
       <div class="slides">
 
-	<section id="intro"
-		 data-markdown="markdown/intro.md"
-		 data-separator="^\n\n\n"
-		 data-vertical="^\n\n"
-		 data-notes="^Note:" >
-	</section>
+    <section id="intro"
+    	 data-markdown="markdown/intro.md"
+    	 data-separator="^\n\n\n"
+    	 data-vertical="^\n\n"
+    	 data-notes="^Note:" >
+    </section>
 
-	<section id="was"
-		 data-markdown="markdown/was.md"
-		 data-separator="^\n\n\n"
-		 data-vertical="^\n\n"
-		 data-notes="^Note:" >
-	</section>
+    <section id="was"
+    	 data-markdown="markdown/was.md"
+    	 data-separator="^\n\n\n"
+    	 data-vertical="^\n\n"
+    	 data-notes="^Note:" >
+    </section>
 
-	<section id="putty"
-		 data-markdown="markdown/putty.md"
-		 data-separator="^\n\n\n"
-		 data-vertical="^\n\n"
-		 data-notes="^Note:" >
-	</section>
+    <section id="putty"
+    	 data-markdown="markdown/putty.md"
+    	 data-separator="^\n\n\n"
+    	 data-vertical="^\n\n"
+    	 data-notes="^Note:" >
+    </section>
 
-	<section id="homesweethome"
-	  data-markdown="markdown/homesweethome.md"
-	  data-separator="^\n\n\n"
-	  data-vertical="^\n\n"
-	  data-notes="^Note:" >
-	</section>
+    <section id="homesweethome"
+      data-markdown="markdown/homesweethome.md"
+      data-separator="^\n\n\n"
+      data-vertical="^\n\n"
+      data-notes="^Note:" >
+    </section>
 
-	<section id="usermgmt"
-		 data-markdown="markdown/usermgmt.md"
-		 data-separator="^\n\n\n"
-		 data-vertical="^\n\n"
-		 data-notes="^Note:" >
-	</section>
+    <section id="usermgmt"
+    	 data-markdown="markdown/usermgmt.md"
+    	 data-separator="^\n\n\n"
+    	 data-vertical="^\n\n"
+    	 data-notes="^Note:" >
+    </section>
 
-	<section id="proj1"
-		 data-markdown="markdown/proj1.md"
-		 data-separator="^\n\n\n"
-		 data-vertical="^\n\n"
-		 data-notes="^Note:" >
-	</section>
+    <section id="proj1"
+    	 data-markdown="markdown/proj1.md"
+    	 data-separator="^\n\n\n"
+    	 data-vertical="^\n\n"
+    	 data-notes="^Note:" >
+    </section>
 
-	<section id="LAMP"
-		 data-markdown="markdown/LAMP.md"
-		 data-separator="^\n\n\n"
-		 data-vertical="^\n\n"
-		 data-notes="^Note:" >
-	</section>
+    <section id="LAMP"
+    	 data-markdown="markdown/LAMP.md"
+    	 data-separator="^\n\n\n"
+    	 data-vertical="^\n\n"
+    	 data-notes="^Note:" >
+    </section>
 
-	<section id="proj2"
-		 data-markdown="markdown/proj2.md"
-		 data-separator="^\n\n\n"
-		 data-vertical="^\n\n"
-		 data-notes="^Note:" >
-	</section>
+    <section id="proj2"
+    	 data-markdown="markdown/proj2.md"
+    	 data-separator="^\n\n\n"
+    	 data-vertical="^\n\n"
+    	 data-notes="^Note:" >
+    </section>
 
-	<section id="conclusion"
-		 data-markdown="markdown/conclusion.md"
-		 data-separator="^\n\n\n"
-		 data-vertical="^\n\n"
-		 data-notes="^Note:" >
-	</section>
+    <section id="conclusion"
+    	 data-markdown="markdown/conclusion.md"
+    	 data-separator="^\n\n\n"
+    	 data-vertical="^\n\n"
+    	 data-notes="^Note:" >
+    </section>
 
       </div>
     </div>
@@ -120,13 +120,13 @@ for (var i = 0; i < n; i++) {
 
     <script src="reveal.js/lib/js/head.min.js"></script>
     <script src="reveal.js/js/reveal.min.js"></script>
-    
+
     <script>
 // Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
     controls: true,
-    progress: false,
+    progress: true,
     history: true,
     center: true,
 //    width: "100%",
@@ -136,14 +136,14 @@ Reveal.initialize({
 //    maxScale: 1,
 
     // Parallax background image
-    // parallaxBackgroundImage: 'images/oscon-logo.svg',
+    parallaxBackgroundImage: 'images/oscon-logo.svg',
 
     // Parallax background size
     parallaxBackgroundSize: '3224px 1024px', // CSS syntax, e.g. "2100px 900px"
 
     theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
     transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
-    
+
     // Optional libraries used to extend on reveal.js
     dependencies: [
 	{ src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
